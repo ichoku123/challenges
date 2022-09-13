@@ -1,0 +1,75 @@
+/*.flex-box{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.a {
+    border: 1px solid black;
+    width: 140px;
+  padding: 5px;
+    margin: 6px;
+}
+.flex-box button{
+    margin: 4px;
+    width: 115px;
+    padding: 13px;
+    
+}
+.flex-box h2{
+    text-align-last: center !important;
+    padding: 5px;
+}
+.held{
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+#ageindays{
+    text-align: center !important;
+    border: 1px solid black;
+    margin: 8px;
+    width: 100%;
+}*/
+.container-1{
+    border: 1px solid black;
+}
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid red;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+.flex-box-container-1 div {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.container-1,.container-2, .container-3, .container-4{
+     border: 1px solid black;
+     width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-container-4{
+    display: flex;
+    flex-wrap: wrap; /*it helps it not to run across the div*/
+    border: 1px solid blue;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container-4 select, button{
+  margin: 10px;
+}
+ .hold-btn button{
+ width: 100px;
+ 
+}
+.flex-box-container-2 img{
+    padding: 17px;
+    box-shadow: 0px 7px 30px black;
+}
+.flex-box-rps img:hover{
+     box-shadow: 0px 7px 30px blue;
+}

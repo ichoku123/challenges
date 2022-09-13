@@ -1,0 +1,15 @@
+/*--styling for nav */
+
+.position{
+    height: 100px;
+    background-color: #020031;
+}
+.position .navbar-nav li a{
+    color: red;
+    border-right: 2px dotted white;
+    height: 60px;
+}
+.mg-top{
+    margin-top: 15px;
+}
+/*--styling for nav */
